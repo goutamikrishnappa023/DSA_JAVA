@@ -23,7 +23,7 @@ public class palindrome {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number to check whether it is palindrome:");
         
-        int x = sc.nextInt(); // ✅ Declare x properly
+        int x = sc.nextInt(); 
 
         palindrome obj = new palindrome();
         if (obj.isPalindrome(x)) {
@@ -32,6 +32,6 @@ public class palindrome {
             System.out.println(x + " is not a palindrome");
         }
 
-        sc.close(); // ✅ Good practice to close the scanner
+        sc.close(); 
     }
 }
